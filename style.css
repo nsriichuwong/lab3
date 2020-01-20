@@ -1,0 +1,41 @@
+body {
+    background-color: #e5dfdf;
+    font-family: 'Righteous', cursive;
+}
+  
+h1 {
+    color: #1D4D4F;
+}
+  
+h2{
+    color: #357376;   
+}
+
+.rules{
+    color: #6ba8a9;
+}
+  
+.guessSubmit{
+    font-family: 'Righteous', cursive;
+    color: white;
+    background-color: #1D4D4F;
+}
+
+.result{
+    color: #6ba8a9;
+}
+
+.history{
+    color: #6ba8a9;
+}
+
+.turn{
+    color: #6ba8a9;
+}
+
+button{
+    font-family: 'Righteous', cursive;
+    color: white;
+    background-color: #1D4D4F
+}
+  

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <h1>&ensp;&nbsp;Number Guessing Game</h1>
+    <h2>&ensp;&nbsp;&nbsp;Rules</h2>
+    <h3><div class="rules">&ensp;&nbsp;&nbsp;&nbsp;We have selected a random number between 1 and 100. See if you can guess it in 10 turms or less. We'll tell you if your guess was too high or too low.&nbsp;</div></h3>
+    <br>
+    <div class="form"> 
+        <h3>&ensp;&nbsp;&nbsp;&nbsp;<input type = "text" id = "guessField"> 
+        <input type = "submit" value = "Submit guess" class = "guessSubmit" id = "submitguess"></h3>
+    </div>
+    <br>
+    <table>
+        <tr>
+            <td>
+                <h2>&ensp;&nbsp;&nbsp;&nbsp;Previous guesses :&nbsp;</h2>
+            </td>
+            <h3><td class="history"></td> </h3>
+        </tr>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <h2>&ensp;&nbsp;&nbsp;&nbsp;Turn :&nbsp;</h2>
+                </td>
+                <td>
+                    <h3><div class="turn"></div></h3>
+            </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <h3><div class="result"></div></h3>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <h3>&ensp;&nbsp;&nbsp;&nbsp;<a href="index.html"><button>Restart Game</button></a></h3>
+    <script src="index.js"></script>
+</body>
+</html>
